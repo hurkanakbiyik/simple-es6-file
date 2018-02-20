@@ -1,0 +1,40 @@
+{
+  "name": "lovetoknow-exercise",
+  "version": "1.0.0",
+  "description": "File reader and sum",
+  "author": "Hürkan AKBIYIK <hurkanakbiyik@gmail.com>",
+  "main": "index.js",
+  "private": false,
+  "engines": {
+    "node": ">=4.8.0",
+    "npm": ">=2.15.11",
+    "yarn": ">=0.20.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "es6",
+    "mocha"
+  ],
+  "dependencies": {
+    "mocha": "3.2.0",
+    "chai": "^3.4.1",
+    "dotenv": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.16.1",
+    "eslint-config-airbnb-base": "7.1.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-watch": "2.1.14"
+  },
+  "license": "MIT",
+  "config": {
+  }
+}
